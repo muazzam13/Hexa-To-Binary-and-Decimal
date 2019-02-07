@@ -124,7 +124,6 @@ public class Main {
     {
         Double q =hexaToDecimal(hexa);
         int f = q.intValue();
-        System.out.println(f);
         ArrayList <Integer> x = new ArrayList<>();
         while (f > 0)
         {
