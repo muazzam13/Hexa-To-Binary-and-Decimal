@@ -149,7 +149,7 @@ public class Main {
     public static String hexaToBinary2(String hexa)
     {
         char [] number ={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
-        String [] bin ={"0001","0010","0011","0100","0101","0110","0111","1000","1001","1010","1011","1100","1101","1110","1111"};
+        String [] bin ={"0000","0001","0010","0011","0100","0101","0110","0111","1000","1001","1010","1011","1100","1101","1110","1111"};
         StringBuilder temp = new StringBuilder();
         char [] container = hexa.toCharArray();
         for(int k =0;k< container.length;k++)
@@ -169,7 +169,9 @@ public class Main {
                 }
             }
         }
+
         String finalTotal = temp.toString();
+
         return finalTotal;
     }
 }
